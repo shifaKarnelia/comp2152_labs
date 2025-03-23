@@ -10,7 +10,8 @@ print(db_cursor)
 
 query1 = "SELECT * FROM demo"
 db_cursor.execute(query1)
-print("reading one row")
+print("reading one row"
+      )
 rows=db_cursor.fetchone()
 print(rows)
 
